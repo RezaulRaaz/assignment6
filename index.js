@@ -12,7 +12,8 @@
                     <h3 class="lyrics-name">${GetData.data[i].title}</h3>
                     <p class="author lead">Album by <span>${GetData.data[i].album.title}</span></p>
                     <audio controls>
-                    <source src="${GetData.data[i].preview}" type="audio/mpeg">
+                        <source src="${GetData.data[i].preview}" type="audio/mpeg">
+                        <source src="${GetData.data[i].preview}" type="audio/ogg">
                     </audio>
                 </div>
                 <div class="col-md-3 text-md-right text-center">
